@@ -6,6 +6,7 @@ redParagraph.style.color = "red";
 
 redParagraph.textContent = 'Hey I\'m red';
 
+
 body.appendChild(redParagraph);
 
 const h3 = document.createElement('h3');
@@ -23,6 +24,11 @@ div.style.cssText = 'border-style:solid; border-color: black; background-color: 
 const h1 = document.createElement('h1')
 h1.textContent = "I'm in a div!"
 
+const divParagraph = document.createElement('p')
+divParagraph.textContent = "ME TOO!"
+
 body.appendChild(div)
 
 div.appendChild(h1)
+
+div.appendChild(divParagraph)
